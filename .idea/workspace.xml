@@ -5,16 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f0428da-3f97-4edc-bcfa-0c94c0426d20" name="Changes" comment="save all the codes">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/crud/test_e2e_complete.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/end2end/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/end2end/test_e2e_sample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/end2end/test_e2e_createBooking_deleteIt_verify.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/end2end/test_e2e_createBooking_patch_verify.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/constants/api_constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/api_constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers/api_requests_wrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/api_requests_wrapper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/helpers/common_verification.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/common_verification.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/helpers/payload_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/payload_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/crud/test_create_booking.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/crud/test_create_booking.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/crud/test_e2e_complete.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/end2end/test_e2e_complete.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +57,7 @@
   "keyToString": {
     "Python tests.Python tests for test_create_booking.TestCreateBooking.executor": "Run",
     "Python tests.Python tests for test_e2e_complete.TestE2E.executor": "Run",
+    "Python tests.Python tests for test_e2e_createBooking_deleteIt_verify.TestE2ECD.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master"
@@ -63,10 +65,26 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sanjiva\PycharmProjects\PyATB5xAPIAutomationFramework\src\tests\end2end" />
       <recent name="C:\Users\Sanjiva\PycharmProjects\PyATB5xAPIAutomationFramework\src\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_e2e_complete.TestE2E">
+  <component name="RunManager" selected="Python tests.Python tests for test_e2e_createBooking_deleteIt_verify.TestE2ECD">
+    <configuration name="Python tests for src.tests.end2end.test_e2e_complete.TestE2E" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PyATB5xAPIAutomationFramework" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/tests/crud" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;src.tests.end2end.test_e2e_complete.TestE2E&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for test_create_booking.TestCreateBooking" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true" show_console_on_std_out="true">
       <log_file alias="Logfiles" path="$USER_HOME$" />
       <module name="PyATB5xAPIAutomationFramework" />
@@ -83,28 +101,30 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_e2e_complete.TestE2E" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_e2e_createBooking_deleteIt_verify.TestE2ECD" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PyATB5xAPIAutomationFramework" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/tests/crud" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/tests/end2end" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_e2e_complete.TestE2E&quot;" />
+      <option name="_new_target" value="&quot;test_e2e_createBooking_deleteIt_verify.TestE2ECD&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Python tests for test_e2e_complete.TestE2E" />
+      <item itemvalue="Python tests.Python tests for test_e2e_createBooking_deleteIt_verify.TestE2ECD" />
+      <item itemvalue="Python tests.Python tests for src.tests.end2end.test_e2e_complete.TestE2E" />
       <item itemvalue="Python tests.Python tests for test_create_booking.TestCreateBooking" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_e2e_complete.TestE2E" />
+        <item itemvalue="Python tests.Python tests for test_e2e_createBooking_deleteIt_verify.TestE2ECD" />
+        <item itemvalue="Python tests.Python tests for src.tests.end2end.test_e2e_complete.TestE2E" />
         <item itemvalue="Python tests.Python tests for test_create_booking.TestCreateBooking" />
       </list>
     </recent_temporary>
@@ -141,7 +161,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736180041708</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="save all the codes">
+      <option name="closed" value="true" />
+      <created>1736250200963</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1736250200964</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
